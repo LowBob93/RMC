@@ -8,9 +8,9 @@ import java.util.Random;
 
 public class Cat implements Contender {
 
-    private String name;
-    private int runLimit;
-    private int jumpLimit;
+    private final String name;
+    private final int runLimit;
+    private final int jumpLimit;
     private boolean isItDone;
 
     public Cat(String name) {

@@ -11,9 +11,9 @@ import java.util.Random;
 
 public class Robot implements Contender {
 
-    private String name;
-    private int runLimit;
-    private int jumpLimit;
+    private final String name;
+    private final int runLimit;
+    private final int jumpLimit;
     private boolean isFinished;
 
     public Robot(String name) {

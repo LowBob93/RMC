@@ -12,9 +12,9 @@ import java.util.Random;
 
 public class Human implements Contender {
 
-    private String name;
-    private int jumpLimit;
-    private int runLimit;
+    private final String name;
+    private final int jumpLimit;
+    private final int runLimit;
     private boolean isItDone;
 
     public Human(String name) {

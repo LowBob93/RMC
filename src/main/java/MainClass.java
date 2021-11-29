@@ -25,7 +25,7 @@ public class MainClass {
         barrier[1] = new Treadmill();
         barrier[2] = new Wall();
 
-        passTheObstacles(contendersArray, barrier); // метод прохождения препятствий существами
+        passTheObstacles(contendersArray, barrier);
 
         Course course = new Course(barrier);
         Team team = new Team("Джависты",new Cat("Локи"), new Human("Томми Версети "), new Human("Карл Джонс"), new Robot("РХ-6600ХТ")); // обьявляем команду участников
@@ -36,7 +36,7 @@ public class MainClass {
 
     }
 
-    public static void passTheObstacles(Contender[] team, Obstacle[] barriers) {
+    public static void passTheObstacles(Contender[] team, Obstacle[] barriers) { // метод прохождения препятствий существами
         System.out.println("___________");
         System.out.println("Участники на полосе препядствий!");
         for (Contender contender : team) {

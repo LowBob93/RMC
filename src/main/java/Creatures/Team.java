@@ -4,8 +4,8 @@ import aAction.Contender;
 
 public class Team {
 
-    private String teamName;
-    private Contender[] teamArray;
+    private final String teamName;
+    private final Contender[] teamArray;
     private int winPoints;
 
     public Team(String teamName, Contender teamMate1, Contender teamMate2, Contender teamMate3, Contender teamMate4) {
