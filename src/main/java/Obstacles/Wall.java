@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class Wall implements Obstacle {
 
-    private int height;
+    private final int height;
 
     public Wall() {
         this.height = new Random().nextInt(7) + 2;
